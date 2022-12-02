@@ -1,0 +1,54 @@
+body{
+    background-image: url(../images/img.jpg);
+    background-size:cover ; 
+    
+    }
+
+@font-face{
+    font-family: Disney;
+    src: url("../fonts/waltographUI.ttf");
+} 
+
+@font-face{
+    font-family: got;
+    src: url("../fonts/game.ttf");
+}
+
+.dia{
+    font-family: Disney;
+    text-align: center;
+    color: aliceblue;
+    font-size: 70px;
+}
+
+.netflix{
+    font-family:'Bebas Neue', cursive;
+    text-align: center;
+    color: rgb(222, 13, 13);
+    font-size: 80px;
+}
+.got{
+    
+    font-family: got;
+    text-align: center;
+    color: rgb(245, 241, 241);
+    font-size: 50px;
+    margin-bottom: 0;
+
+}
+
+.alineacion {
+    padding-top: 450px;
+    font-size: 50px;
+}
+
+.colors{
+    font-size: 40px;
+    margin: 0;
+}
+
+a{
+    text-decoration: none;
+    color: aliceblue;
+}
+
