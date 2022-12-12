@@ -1,0 +1,42 @@
+body{
+    margin: 5em;
+    background-image:url("../images/img1.png");
+}
+    .padre{
+        display: flex;
+        justify-content: space-around;
+        text-align: justify;
+    }
+    .borde1, .borde2, .borde3, .borde4, .borde5{
+        height: 240px;
+        width: 140px;
+        padding: 1em;
+        justify-content: space-around;
+        text-align: justify;
+    }
+    
+        .borde1{
+            border: 5px solid rgba(23, 17, 141, 0.903);
+            background-color: rgb(49, 172, 12);
+        }
+        
+        .borde2{
+            border: 5px dotted rgb(142, 9, 9);
+            background-color:rgb(77, 229, 237)
+        }
+        
+        .borde3{
+            border: 5px dashed rgb(67, 33, 0);
+            background-color: rgb(255, 238, 0);
+        
+        }
+        
+        .borde4{
+            border: 5px double rgb(19, 3, 1);
+            background-color: rgb(182, 251, 240);
+        }
+        
+        .borde5{
+            border: 5px groove rgb(90, 4, 68);
+            background-color: rgb(238, 109, 227);
+            }
