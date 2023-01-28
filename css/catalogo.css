@@ -1,0 +1,12 @@
+.box-1, .box-2, .box-3, .box-4, .box-5, .box-6 {
+width: 33%;
+display: inline-block
+}
+
+img{
+    width: 100%;
+    
+}
+h1, h2, p {
+    text-align: center;
+}
