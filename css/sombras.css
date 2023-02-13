@@ -1,0 +1,94 @@
+body {
+    background: #bdc3c7;  /* fallback for old browsers */
+     background: -webkit-linear-gradient(to right, #2c3e50, #bdc3c7);  /* Chrome 10-25, Safari 5.1-6 */
+     background: linear-gradient(to right, #2c3e50, #bdc3c7); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+ 
+ }
+ 
+.caja{
+    cursor: pointer;
+    height: 300px;
+    width: 300px;
+    border-radius: 5px;
+    display: inline-block;
+}
+
+ .cajas1{
+    display: flex;
+}
+
+ .caja1{
+    height: 300px;
+    width: 300px;  
+    color:#e5e5e5;
+    font-size: 1.7em;
+    font-size: flex;
+    justify-content: center;
+    align-items: center;
+    float: left;
+    /* para agregar sombra pixelada agrega 3 valores de pixel */
+    margin-top: 80px;
+    margin-left: 150px;
+    background-color: #d9a784;
+    box-shadow: 20px 16px 20px ; 
+    border-radius: 5px;
+    text-align: center;
+}
+
+.caja2 {
+        height: 300px;
+        width: 300px;
+        background-color:#3f8c5d;
+        float: left;
+        margin-top: 80px;
+        margin-left: 80px;
+        /* Para agregar la sombra solida se le agregan solo dos valores de pixel */
+           color: black;
+        box-shadow: 35px 15px; 
+        border-radius: 8px;
+        text-align: center;
+}
+
+.caja3 {
+    text-align: center;
+    border-radius: 10px;
+    height: 300px;
+    width: 300px;
+    background-color: #07a5e4;
+    color:#81ffd8;
+  
+    margin-top: 80px;
+    margin-left: 80px;
+    font-size: 1.7em;
+    float:left
+
+}
+
+.caja3:hover{
+    box-shadow: 35px 15px 37px;
+    box-shadow: rgb(250, 246, 0) 0px 10px 20px, rgb(251, 255, 0) 0px 6px 6px;
+}
+
+.caja3 label{
+    text-align: center;
+    margin-top: 10px;
+}
+
+.caja4 {
+    text-align: center; 
+    border-radius: 10px;
+    height: 300px;
+    width: 300px;
+    background: #654ea3;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #eaafc8, #654ea3);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #eaafc8, #654ea3); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    color: #e2e2e2;
+    margin-top: 30px;
+    margin-left:150px;
+    font-size: 1.7em;
+    float:left
+    
+}
+.caja4:hover{
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+}
