@@ -1,0 +1,136 @@
+body {
+    background: #373B44;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to bottom, #4286f4, #373B44);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to bottom, #4286f4, #373B44); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    
+ 
+ }
+ 
+.caja{
+    cursor: pointer;
+    height: 300px;
+    width: 300px;
+    border-radius: 5px;
+}
+
+ .box1{
+    display: flex;
+    justify-content: center;
+}
+
+ .caja1{
+    height: 300px;
+    width: 300px;  
+    justify-content: center;
+    align-items: center;
+    float: left;
+    /* para agregar sombra pixelada agrega 3 valores de pixel */
+    margin-top: 80px;
+    margin-left: 150px;
+    background-color: blue;
+    box-shadow: 20px 16px 20px ; 
+    border-radius: 5px;
+    transition: 1.5s;
+}
+.caja1:hover{
+    box-shadow: 50px 50px 37px;
+    box-shadow: rgb(245, 95, 212) 0px 10px 20px, rgb(230, 78, 197) 0px 6px 6px;
+    background-color: red;
+    transform: (1.5);
+
+}
+.box2{
+    display: flex;
+    justify-content: center;
+}
+.caja2 {
+        height: 300px;
+        width: 300px;
+        background: #000046;  /* fallback for old browsers */
+        background: -webkit-linear-gradient(to right, #1CB5E0, #000046);  /* Chrome 10-25, Safari 5.1-6 */
+        background: linear-gradient(to right, #1CB5E0, #000046); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */        
+        float: left;
+        margin-top: 80px;
+        margin-left: 80px;
+        /* Para agregar la sombra solida se le agregan solo dos valores de pixel */
+           color: black;
+        box-shadow: 35px 15px; 
+        border-radius: 8px;
+        text-align: center;
+}
+
+.caja3 {
+    text-align: center;
+    border-radius: 10px;
+    height: 300px;
+    width: 300px;
+    background: #0575E6;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #021B79, #0575E6);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #021B79, #0575E6); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */    
+    color:#81ffd8;
+  
+    margin-top: 80px;
+    margin-left: 80px;
+    font-size: 1.7em;
+    float:left
+
+}
+
+.caja3:hover{
+    box-shadow: 35px 15px 37px;
+    box-shadow: rgb(250, 246, 0) 0px 10px 20px, rgb(251, 255, 0) 0px 6px 6px;
+}
+
+.box3{
+    display: flex;
+    justify-content: center;
+}
+
+.caja4 {
+    text-align: center; 
+    border-radius: 10px;
+    height: 300px;
+    width: 300px;
+    background: #654ea3;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #eaafc8, #654ea3);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #eaafc8, #654ea3); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    color: #e2e2e2;
+    margin-top: 30px;
+    margin-left:150px;
+    font-size: 1.7em;
+    float:left
+    
+}
+.caja4:hover{
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+}
+
+.caja5{
+text-align: center; 
+border-radius: 10px;
+height: 300px;
+width: 300px;background: #654ea3;  /* fallback for old browsers */
+background: #03001e;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to bottom, #fdeff9, #ec38bc, #7303c0, #03001e);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to bottom, #fdeff9, #ec38bc, #7303c0, #03001e); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+color: #e2e2e2;
+margin-top: 30px;
+margin-left:150px;
+font-size: 1.7em;
+float:left
+}
+
+.caja6{
+    text-align: center; 
+    border-radius: 10px;
+    height: 300px;
+    width: 300px;
+    background: #03001e;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #fdeff9, #ec38bc, #7303c0, #03001e);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #fdeff9, #ec38bc, #7303c0, #03001e); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */      
+    color: #e2e2e2;
+    margin-top: 30px;
+    margin-left:150px;
+    font-size: 1.7em;
+    float:left
+    }
