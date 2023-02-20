@@ -1,0 +1,26 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+}
+
+.titulo{
+    text-align: center;
+}
+
+table{
+    border-collapse: collapse;
+    border: 1px solid black;
+}
+th, td{
+    border: 1px solid black;
+    text-align: left;
+}
+
+.va1, .va2, .va3{
+    text-align: center;
+}
+
+.box-table{
+   display: flex;
+}
