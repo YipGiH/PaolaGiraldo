@@ -6,9 +6,12 @@ body{
 a{
     color: aliceblue;
 }
-
+.Nombre1{
+    color: aliceblue;
+}
 .Nombre{
     color: aliceblue;
+    padding-bottom: 2em;
 }
 .fuentes {
     width: 200px;
@@ -41,5 +44,26 @@ a{
 
 .contgeneral{
     display: flex;
+    margin-inline-start: 20%;
 }
-.
+.contgenera2{
+display: flex;}
+
+.catalogo{
+    width: 200px;
+    height: 200px;
+    border: 1px solid white;
+    text-align: center;
+}
+.sombras{
+    width: 200px;
+    height: 200px;
+    border: 1px solid white;
+    text-align: center;
+}
+.piramide{
+    width: 200px;
+    height: 200px;
+    border: 1px solid white;
+    text-align: center;
+}
