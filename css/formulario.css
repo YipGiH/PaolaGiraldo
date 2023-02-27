@@ -1,0 +1,59 @@
+
+form{
+    border: 1px solid rgb(42, 41, 41); 
+    width: 400px;
+    text-justify: center;
+    height: auto;
+}
+.t{
+    text-align: center;
+}
+.caja{
+    padding-top: 10px;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+
+}
+
+.text{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 1.5em;
+
+}
+legend{
+        text-align: center;
+        background-color: rgb(71, 156, 195);
+        color: aliceblue;
+        
+}
+
+textarea{
+    resize: none;
+}
+
+/* 
+PARA QUITAR LOS BORDES DE LAS RESPUESTAS
+input[type="text"]:focus
+outline:none 
+ */
+
+input[type="submit"] {
+    display: block;
+    width: 200px;
+    background-color:  rgb(71, 156, 195);
+    margin-top: 20px;
+    margin-bottom: 20px;
+    display: block;
+    width: 300px;
+    color: aliceblue;
+    text-align: center;
+    font-size: 1.3em;
+    border-radius: 5px;
+    border: none;
+}
+.btn-enviar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

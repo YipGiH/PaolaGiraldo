@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/formulario.css">
+</head>
+<body>
+  <h1 class="t">FORMULARIO <br> Reserva De Vuelos</h1>
+<div class="caja">
+  <form>
+        <legend><span class="text">Ingrese sus datos:</span></legend><br>
+        <label>Numero de identidicación:</label><br>
+        <input type="text" name="Numero de documento"><br><br>
+        <label>Primer nombre:</label><br>
+        <input type="text" name="Primer nombre"><br>
+        <label>Segundo nombre:</label><br>
+        <input type="text" name="Segundo nombre"><br><br>
+        <label>Primer apellido:</label><br>
+        <input type="text" name="Primer apellido"><br>
+        <label>Segundo apellido:</label><br>
+        <input type="text" name="Segundo apellido"><br><br>
+      
+        <!-- Para ingresar un recuadro de respuesta  -->
+        <label>¿Tienes preguntas? comunicalas en el recuadro</label><br>
+        <textarea name="text" cols="40" rows="6"></textarea><br><br>
+       
+        <!-- 1 sola respuesta de opción multiple (RADIO)-->
+        <label>¿Con que genero te identificas?</label><br>
+        <input type="radio" name="genero" value="Masculino"><span class="text-option">Masculino</span></input><br>
+        <input type="radio" name="genero" value="Femenino"><span class="text-option">Femenino</span></input><br>
+        <input type="radio" name="genero" value="Indefinido"><span class="text-option">Indefinido</span></input><br>
+        <input type="radio" name="genero" value="Prefiero no decirlo"><span class="text-option">Prefiero no decirlo</span></input><br><br>
+
+        <!-- Respuesta multiple con opción multiple (CHECKBOX) -->
+        <label>Seleccione la(s) aerolínias(s) con la(s) que le gustaria viajar</label><br>
+        <input type="checkbox" name="aerolineas"><span class="text-option">Avianca</span></input><br>
+        <input type="checkbox" name="aerolineas"><span class="text-option">Latam</span></input><br>
+        <input type="checkbox" name="aerolineas"><span class="text-option">Viva Air</span></input><br>
+        <input type="checkbox" name="aerolineas"><span class="text-option">Ultra Air</span></input><br><br>
+        
+
+        <!-- Seleccionar una de varias opciones (SELEC) -->
+        <label>Seleccione su destino</label><br>
+         <select name="destino"><br>
+            <option value="SanAndres">San Andrés</option>
+            <option value="SantaMarta">Santa Marta</option>
+            <option value="Cartagena">Cartagena</option>
+            <option value="Cali">Cali</option>
+            <option value="Manizales">Manizales</option>
+            <option value="Medellin">Medellín</option>
+            <option value="Bogota">Bogotá</option>
+        </select>
+
+        <!-- Botón (SUBMIT) -->
+        <div class="btn-enviar">
+        <input type="submit" value="Enviar">
+        </div>
+          
+        
+
+    </form>
+</div>
+</body>
+</html>
