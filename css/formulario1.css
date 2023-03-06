@@ -20,6 +20,7 @@ color: aliceblue;
     font-family: 'Courier New', Courier, monospace;
     font-size: 1.5em;
 
+
 }
 legend{
         text-align: center;
@@ -31,6 +32,7 @@ legend{
 textarea{
     resize: none;
     background-color: transparent;
+    color: aliceblue;
 }
 
 /* 
@@ -61,4 +63,8 @@ input[type="submit"] {
 
 input{
     background-color: rgba(0, 0, 0, 0);
+    color: aliceblue;
+}
+.t{
+    color: aliceblue;
 }

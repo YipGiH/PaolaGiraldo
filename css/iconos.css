@@ -1,0 +1,47 @@
+/* IMPRORTAR LETRA */
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display+SC&display=swap');
+
+*{
+    margin: 0%;
+    padding: 0%;
+    color: aliceblue;
+}
+
+.nav2{
+    width: 220px;
+    height: 100vh;
+    background-color: black;
+}
+
+.bar2{
+    color: white;
+}
+
+ul{
+    height: 80%;
+    width: 100%;
+    text-align: right;
+    color: aliceblue; 
+    background-color:rgb(24, 24, 24, 9)
+}
+li{
+    display: inline-block;
+    padding: 25px 45px;
+    font-size: 1.0em;
+    color: aliceblue;
+    /* IMPORTAR LETRA */
+    font-family: 'Playfair Display SC', serif;
+
+
+}
+.style-home{
+    color: rgb(9, 154, 238);
+    margin: 8px;
+}
+
+/* font awesome (BUSCAR ICONOS) */
+
+/* Barra lateral */
+
+
+
