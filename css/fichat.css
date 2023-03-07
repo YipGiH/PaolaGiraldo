@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display+SC&family=Roboto:wght@100&family=Zilla+Slab:ital,wght@1,500&display=swap');
+*{
+    padding: 0%;
+    margin: auto;
+    font-family: 'Playfair Display SC', serif;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Zilla Slab', serif;
+    font-size: 1.1vm;
+}
+
+.titulo{
+    text-align: center;
+    padding-bottom: 0;
+    font-size: 1.1vm;
+  
+    
+
+}
+
+.subt{
+    text-align: center;
+    padding-bottom: 0.4em;
+    font-size: 1.1vm;
+ 
+    
+}
+
+table{
+    border-collapse: collapse;
+    font-size: 1.1vw;
+
+}
+
+td, th{
+    border: 1px solid rgba(63, 60, 60, 0.701);
+    text-align: left;  
+    text-align: left;
+    font-size: 1.1vm;
+    height: 50px;
+    width: 450px;
+}
+
+.box-table{
+    display: flex;
+    border-top: 1px;
+    justify-content:left;
+    font-size: 1.1vm;
+    
+}
+ input{
+    border: none;
+    height: 50px;
+    width: 500px;
+ }
+
+label{
+    font-weight: normal;
+}
+
+.h{
+    text-align: center;
+}
+
+.firma{
+    justify-content: center;
+}
+
