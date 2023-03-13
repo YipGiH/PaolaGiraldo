@@ -1,3 +1,8 @@
 h1{
     font-family: disney;
 }
+body{
+    background-image: url("../images/tiana.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
