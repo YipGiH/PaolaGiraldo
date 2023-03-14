@@ -13,6 +13,12 @@ a{
     color: aliceblue;
     padding-bottom: 2em;
 }
+
+.contgeneral{
+    display: flex;
+    margin-inline-start: 20%;
+}
+
 .fuentes {
     width: 200px;
     height: 200px;
@@ -42,14 +48,6 @@ a{
     text-align: center;
 }
 
-.contgeneral{
-    display: flex;
-    margin-inline-start: 20%;
-}
-.contgenera2{
-display: flex;
-margin-inline-start: 20%;}
-
 .catalogo{
     width: 200px;
     height: 200px;
@@ -62,6 +60,10 @@ margin-inline-start: 20%;}
     border: 1px solid white;
     text-align: center;
 }
+
+.contgenera2{
+    display: flex;
+    margin-inline-start: 20%;}
 .piramide{
     width: 200px;
     height: 200px;
@@ -96,6 +98,17 @@ margin-inline-start: 20%;}
 }
 
 .menusena{
+    width: 200px;
+    height: 200px;
+    border: 1px solid white;
+    text-align: center;
+}
+
+.contgenera3{
+    display: flex;
+margin-inline-start: 20%;}
+
+.proyecto{
     width: 200px;
     height: 200px;
     border: 1px solid white;

@@ -39,6 +39,9 @@ td, th{
     height: 50px;
     width: 450px;
 }
+td:hover{
+    background-color: rgba(128, 128, 128, 0.624);
+}
 
 .box-table{
     display: flex;
@@ -63,5 +66,18 @@ label{
 
 .firma{
     justify-content: center;
+}
+
+.h{
+    background-color: rgb(92, 142, 174)
+}
+
+.cuadrito{
+    margin:0;
+    display: flex;
+}
+.f{
+    justify-content: center;
+    margin: 0 auto;
 }
 
