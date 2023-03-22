@@ -1,5 +1,11 @@
-h1{
+@import url('https://fonts.googleapis.com/css2?family=Alkatra&display=swap');
+.title{
     font-family: disney;
+    color: antiquewhite;
+    margin-left: 10%;
+    margin-top: 15%;
+    font-size: 500%;
+    font-family: 'Alkatra', cursive;
 }
 body{
     background-image: url("../images/tiana.jpg");

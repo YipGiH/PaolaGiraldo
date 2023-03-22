@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Bona+Nova&family=Playfair+Display&display=swap');
+*{
+    font-family: 'Bona Nova', serif;
+    font-family: 'Playfair Display', serif;
+}
+body{
+    background-image: url(../images/0001.jpg);
+    background-size:cover;
+    font-size: 200%;
+    text-align: center;
+}
+
+a{
+    color: aliceblue;
+}
+.Nombre{
+    color: aliceblue; 
+    padding-bottom: 2em;
+    text-align: end;
+    font-size: 150%;
+
+}
+
+.contgeneral{
+    display: flex;
+    margin-inline-start: 20%;
+}
+
+.fuentes {
+    width: 200px;
+    height: 200px;
+    border: 1px solid white;
+    text-align: center;
+}
+
+.colors{
+    width: 200px;
+    height: 200px;
+    border: 1px solid white;
+    text-align: center;
+}
+
+.bordes{
+    width: 200px;
+    height: 200px;
+    color: white;
+    border: 1px solid white;
+    text-align: center;
+}
+
+.tablas{
+    width: 200px;
+    height: 200px;
+    border: 1px solid white;
+    text-align: center;
+}
+
+.catalogo{
+    width: 200px;
+    height: 200px;
+    border: 1px solid white;
+    text-align: center;
+}
+.sombras{
+    width: 200px;
+    height: 200px;
+    border: 1px solid white;
+    text-align: center;
+}
+
+.contgenera2{
+    display: flex;
+    margin-inline-start: 20%;}
+.piramide{
+    width: 200px;
+    height: 200px;
+    border: 1px solid white;
+    text-align: center;
+}
+.Formulario{
+    width: 200px;
+    height: 200px;
+    border: 1px solid white;
+    text-align: center;
+}
+.Formulario1{
+    width: 200px;
+    height: 200px;
+    border: 1px solid white;
+    text-align: center;
+}
+
+.Iconos{
+    width: 200px;
+    height: 200px;
+    border: 1px solid white;
+    text-align: center;
+}
+
+.FichaTecnica{
+    width: 200px;
+    height: 200px;
+    border: 1px solid white;
+    text-align: center;
+}
+
+.menusena{
+    width: 200px;
+    height: 200px;
+    border: 1px solid white;
+    text-align: center;
+}
+
+.contgenera3{
+    display: flex;
+margin-inline-start: 20%;}
+
+.proyecto{
+    width: 200px;
+    height: 200px;
+    border: 1px solid white;
+    text-align: center;
+}
