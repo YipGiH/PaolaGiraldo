@@ -1,0 +1,46 @@
+.main-box{
+    width: 100%;
+    height: 2500px;
+}
+.box{
+    width: 400px;
+    height: 400px;
+    background-color: rgb(64, 64, 64);
+    color: aliceblue;
+    font-size: 2em;
+    font-family: sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box-static{
+    background-color: rgb(5, 146, 2);
+    position: static;
+    color: white;
+    font-size: 2em;
+    font-family: sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+
+.box-absolute{
+    background-color: rgb(178, 32, 218);
+    position: absolute;
+    top: 150px;
+    right: 200px;
+}
+.box-fixed{
+    background-color: rgb(228, 173, 32);
+    position: fixed;
+    bottom: 20px;
+    right: 10px;
+}
+
+.box-relative{
+    background-color: dodgerblue;
+    position: relative;
+}
