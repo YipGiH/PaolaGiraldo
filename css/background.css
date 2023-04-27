@@ -1,0 +1,59 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.img-principal{
+    background-image: url("../images/girasol-principal.jpg");
+    width: 100%;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    z-index: 5;
+    position: fixed;
+    opacity: 0.9;
+    /* width: 1920px;
+    height: 969px; */
+    /* Backgroun size conter:Prioriza la imagen sobre la sispocición de la pantalla
+       Bacground size cover: cubre toda la pantalla */
+}
+.form-box{
+    width: 100%;
+    height: 100vh;
+    position: fixed;
+    z-index: 10;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.form{
+    width: 350px;
+    height: 450px;
+    background-color:rgb(64, 64, 64, .6);
+    border-radius: 15px;
+}
+.box-user{
+    color: aliceblue;
+    font-size: 130px;
+}
+.icon-user{
+    width:160px;
+    height: 160px;
+    background-color: rgb(48, 48, 48, .9);
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: -80px;
+}
+
+
+input[type=text]{
+    border: 0;
+    background-color: transparent;
+    font-size: 1.5em;
+}
+
+input[type=text]:active{
+    outline: none;
+}
