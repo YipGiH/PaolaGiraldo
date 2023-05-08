@@ -37,23 +37,36 @@
     font-size: 130px;
 }
 .icon-user{
-    width:160px;
-    height: 160px;
+    width:140px;
+    height: 140px;
     background-color: rgb(48, 48, 48, .9);
     border-radius: 50%;
     display: flex;
     justify-content: center;
     align-items: center;
-    top: -80px;
+    margin-top: -100px;
+    margin-left: 90px;
 }
-
-
-input[type=text]{
-    border: 0;
-    background-color: transparent;
-    font-size: 1.5em;
+/* input[type=text] input[type=password]{
+    font-size: 15em;
+    z-index: 11;
+} */
+ 
+.icon-user1{
+    z-index: 11;
+    color: aliceblue;
 }
-
-input[type=text]:active{
-    outline: none;
+.box-user span{
+    font-size: 90px;
+    text-align: center;
+}
+.texto h1{
+    width: auto;
+    height: 80px;
+    margin-top: 5px;
+}
+.ct{
+    display: flex;
+    justify-content: center;
+    color: aliceblue;
 }
