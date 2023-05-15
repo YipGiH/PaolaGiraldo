@@ -1,3 +1,18 @@
+*{
+    margin: 0;
+    padding: 0%;
+    font-family: sans-serif;
+}
+h1{
+    text-align: center;
+    font-size: 2.2em;
+}
+h2{
+margin-bottom: 15px;
+margin-left: 20px;
+margin-top: 15px;
+margin-right: 20px;
+}
 .box1{
     display: grid;
     width: 600px;
@@ -8,7 +23,6 @@
     border: 3px solid black;
 
 }
-
 .style-box{
     background-color: dodgerblue;
     display: flex;
@@ -16,4 +30,53 @@
     align-items: center;
     box-shadow: 3px 3px 3px rgb(47, 83, 119);
 
+}
+.box{
+    display: grid;
+    width: 600px;
+    height: 500px;
+    color: aliceblue;
+    font-size: 1.5em;
+    border: 3px solid black;
+    grid-gap:15px;
+}
+.box-2{
+  /* (1fr) sirve para que tome todo el ancho de la pantalla disponible, ejemplo los laterales del dos */
+    grid-template-columns: 1fr 100px 100px 1fr;
+}
+.box-3{
+    /* se le coloca 1fr -si quiero que automaticamente me rellene el espacio- en el espacio donde va el valor de cada elemento// SI SON 4 EMENTOS = 100px 100px 100px 100px -si no quiero repetir el codigo le doy- repeat(4, 100px) para poner el 1fr, lo pongo en el espacio donde quiero que se repita ej: 100px 1fr 1fr 100px*/
+    grid-template-columns:1fr repeat(3, 150px) 1fr;
+    grid-template-rows: 100px 100px;
+}
+.box-4{
+    display: grid;
+    height: 500px;
+    color: aliceblue;
+    font-size: 1.5em;
+    border: 3px solid black;
+    grid-gap:15px;
+    grid-template-columns: minmax(300px, 1fr)1fr;
+}
+.box-5{
+    /* Para hacer que salte espacios */
+    grid-template-columns: repeat(4, 1fr);
+}
+.style-box{
+    background-color: dodgerblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 3px 3px 3px rgb(47, 83, 119);
+}
+/* Para darle a una cajita un tamaño diferente // start es ---- ancho y end es | alto */
+.mini-box1{
+    background-color: goldenrod;
+    grid-column-start: 1;
+    grid-column-end: 5;
+}
+.mini-box2{
+    background-color:rgb(8, 8, 126);
+    grid-row-start:2;
+    grid-row-end:4;
 }

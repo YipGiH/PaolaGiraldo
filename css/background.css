@@ -77,23 +77,60 @@
     text-align: center;
     margin-top: 10%;
     margin-bottom: 20px;
+    color: aliceblue;
+    margin-bottom: 60px;
     
 
 }
-.input-text {
-    margin-top: 15px;
-    
+.input-text1 {
+    margin-bottom: 25px;
 }
 
 .contraseña{
     border-radius:4px;
     text-align: center;
+    width: auto;
+    height: 20px;
+    color: aliceblue;
+
+
 }
 .nombre{
     text-align: center;
     border-radius: 4px;
+    width: auto;
+    height: 20px;
 
 }
 i{
-    color: red;
+    color: rgb(255, 246, 246);
+}
+input{
+    background-color: transparent;
+    border: none;
+
+}
+input[type="text"], input[type="password"]{
+    outline: none;
+}
+input [placeholder="usuario"]{
+    color: aliceblue;
+}
+.olvido{
+    display: flex;
+    justify-content: center;
+    color: aliceblue;
+    margin-top: 20px;
+}
+button{
+    background-color: rgba(240, 248, 255, 0.63);
+    width: 200px;
+    height: 40px;
+    border-radius: 12px;
+}
+.boton{
+    margin-top: 40px;
+}
+::placeholder{
+    color: aqua;
 }
