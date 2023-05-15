@@ -1,0 +1,19 @@
+.box1{
+    display: grid;
+    width: 600px;
+    height: 500px;
+    color: aliceblue;
+    font-size: 1.3em;
+    grid-gap: 20px;
+    border: 3px solid black;
+
+}
+
+.style-box{
+    background-color: dodgerblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 3px 3px 3px rgb(47, 83, 119);
+
+}

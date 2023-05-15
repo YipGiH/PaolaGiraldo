@@ -70,3 +70,30 @@
     justify-content: center;
     color: aliceblue;
 }
+.usuario{
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 10%;
+    margin-bottom: 20px;
+    
+
+}
+.input-text {
+    margin-top: 15px;
+    
+}
+
+.contraseña{
+    border-radius:4px;
+    text-align: center;
+}
+.nombre{
+    text-align: center;
+    border-radius: 4px;
+
+}
+i{
+    color: red;
+}
