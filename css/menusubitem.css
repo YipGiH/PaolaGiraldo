@@ -1,8 +1,7 @@
 *{
-    margin: 0%;
-    padding: 0%;
+    margin: 0;
+    padding: 0;
 }
-
 nav{
     background-color: rgb(64, 64, 64);
     font-family: 'Playfair Display SC', serif;
@@ -10,6 +9,7 @@ nav{
     font-family: 'Zilla Slab', serif;
     font-size: 1.5em;
     font-weight: 900;
+    width: 100%;
 }
 /* Todos los menús hijos de nav tienen posicionamiento absoluto */
 nav ul{
@@ -21,7 +21,7 @@ nav ul{
 }
 nav ul li{
     line-height: 70px;
-    width: 320px;
+    width: 330px;
     text-align: center;
     position: relative;
     border-bottom: 1px solid aliceblue;
@@ -33,14 +33,14 @@ a{
     background-color: rgb(10, 111, 111);
     color: aliceblue;
     text-decoration: none;
-    padding: 0 25px;
+    padding: 10 25px;
     display: block;
 }
 li{
     background-color: rgb(10, 111, 111);
     color: aliceblue;
     text-decoration: none;
-    padding: 0 25px;
+    padding: 10 25px;
     display: block;
 }
 /* Primer Hijo De Nav */
@@ -58,10 +58,22 @@ nav li li{
 }
 
 nav li:hover> ul > li{
-    max-height: 500px;
+    max-height: 1000px;
     overflow: visible;
 }
 nav ul ul ul{
- left: 250px;
+ left: 330px;
  margin-top: -70px;
+}
+/*  */
+nav ul li:hover{
+    background-color: rgb(35, 163, 163);
+    padding-left: 0;
+    padding-right: 0;
+}
+
+a:hover,
+li:hover {
+    padding-left: 0;
+    padding-right: 0;
 }
