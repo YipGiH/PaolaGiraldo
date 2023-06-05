@@ -29,7 +29,8 @@ body{
 }
 .dia:hover{
     box-shadow: rgb(39, 38, 38) 0px 5px 15px;
-    background: #da7cdd;
+    background: #0b6198;
+    color: aliceblue;
 }
 .dia-uno{
     text-align: center;
@@ -41,7 +42,7 @@ body{
 .dia-uno:hover{
     box-shadow: rgb(39, 38, 38) 0px 5px 15px;
     cursor: pointer;
-    background: #da7cdd;
+    background: #0b6198;
 }
 .dia7 {
     text-align: left;
