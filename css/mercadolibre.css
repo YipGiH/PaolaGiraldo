@@ -111,7 +111,44 @@ img{
     color: rgb(30, 144, 255);
     font-size: 1.1em;
 }
-@media only screen and (min-wisth: 420){
+/* togol */
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.toggle-container {
+    position: relative;
+}
+
+.toggle-btn {
+    width: 60px;
+    height: 30px;
+    background-color: #ccc;
+    border-radius: 15px;
+    position: relative;
+    cursor: pointer;
+}
+
+.ball {
+    width: 26px;
+    height: 26px;
+    background-color: #ffcc00; /* Amarillo */
+    border-radius: 50%;
+    position: absolute;
+    top: 2px;
+    left: 2px;
+    transition: 0.3s;
+}
+
+.toggle-btn.active .ball {
+    left: calc(100% - 28px);
+}
+
+@media only screen and (min-width: 420){
     .box-producto{
         font-size: 1.7em;
     }

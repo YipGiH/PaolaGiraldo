@@ -14,7 +14,7 @@ class Automovil {
 let auto1 = new Automovil("XTZ ", "125", 7000000, "2017 ·", " 10.400 km ·", " Pitalito-Huila", "images/1.png");
 let auto2 = new Automovil("XTZ", "250", 15000000, "2022 ·", " 5.400 km ·", " Pitalito-Huila", "images/2.png");
 let auto3 = new Automovil("RX", "115", 150000, "2015 ·", " 5.400 km ·", " Pitalito-Huila", "images/3.png");
-let auto4 = new Automovil("DT", "125", 1500000, "2000 ·", " 5.400 km ·", " Pitalito-Huila", "images/4.png");
+let auto4 = new Automovil("DT", "125", 1500000, "2000 ·", " 5.400 km ·", " Pitalito-Huila", "images/5.png");
 /* alert (auto1.marca + " " + auto1.modelo); */
 
 // for (contador = 1; contador <= 2; contador++) {
@@ -118,7 +118,8 @@ function CargarVehiculo(auto) {
             let lineaDiv = document.createElement("hr");
             boxProducto.appendChild(lineaDiv);
             lineaDiv.setAttribute("class", "linea-div");
-            
-            /* } */
-      
 }
+// togol
+document.getElementById('toggleBtn').addEventListener('click', function() {
+    this.classList.toggle('active');
+});

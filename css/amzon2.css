@@ -1,0 +1,19 @@
+input[type="text"] {
+    margin-bottom: 20px;
+    display: block;
+    height: 30px;
+    border: 2px solid rgb(64, 64, 64, 0.8); /* Corregido aquí */
+    font-size: 1.4em;
+    font-family: sans-serif;
+}
+
+input[type="button"] {
+    width: 250px;
+    height: 45px;
+    border-radius: 4px;
+    background-color: dodgerblue;
+    border: none;
+    color: aliceblue;
+    font-size: 1.2em;
+    font-weight: 600;
+}
