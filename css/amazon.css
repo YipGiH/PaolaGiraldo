@@ -11,7 +11,7 @@ input[type="button"] {
     width: 250px;
     height: 45px;
     border-radius: 4px;
-    background-color: rgb(255, 68, 30);
+    background-color: rgb(64, 64, 64, .8);
     border: none;
     color: white;
     font-size: 1.2em;
